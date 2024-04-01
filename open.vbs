@@ -1,5 +1,5 @@
 Dim WShell
 Set WShell = CreateObject("WScript.Shell")
-pfdir = WShell.ExpandEnvironmentStrings("%PROGRAMFILES(X86)%")
-WShell.Run pfdir & "\cloudflared\launch.bat", 0
+launchbat = WShell.ExpandEnvironmentStrings("%PROGRAMFILES(X86)%\cloudflared\launch.bat")
+WShell.Run launchbat, 0
 Set WShell = Nothing
