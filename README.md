@@ -10,12 +10,12 @@ Step by step what these scripts do
 
 Setup Steps
 1) Download cloudflared.exe for windows deamon https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation
-2) Extract into C:\Cloudflared\bin - This could be changed in the script if desired
+2) Extract into C:\Program Files (x86)\cloudflared - This could be changed in the script if desired
 3) Download and place launch.bat and open.vbs into same folder
 4) Edit launch.bat and replace [access hostname] with your cloudflare hostname and [workstation] with your workstation name that you trying to remote desktop to
 
 Run steps - Cloudflare tunnel and access application policy must be setup prior
-1) C:\Cloudflared\bin\open.vbs
+1) C:\Program Files (x86)\cloudflared\open.vbs
 - If this is working properly then a browser window should launch automatically as well as a remote desktop session. You will need to go through your access authentication process at which time you can click back onto the remote destop shortcut on the taskbar where it should be prompting you for windows credentials.
 
 Recommended
